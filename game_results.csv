@@ -1,0 +1,7 @@
+turn,player,dice,turn_score,total_score,tupled_out
+1,Neiko,"(2, 2, 2)",0,0,True
+1,Chat,"(2, 1, 5)",8,8,False
+1,Greg,"(6, 5, 5)",16,16,False
+2,Neiko,"(3, 4, 5)",12,12,False
+2,Chat,"(5, 4, 3)",12,20,False
+2,Greg,"(5, 2, 1)",8,24,False
