@@ -1,0 +1,6 @@
+New Tuple Out Game
+Neiko: 12
+Chat: 20
+Greg: 24
+Winner: Greg
+
