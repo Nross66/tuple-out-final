@@ -31,7 +31,7 @@ pip install numpy pandas seaborn matplotlib
 | File | Purpose |
 | --- | --- |
 | `tuple_out.py` | Main game file |
-| `game_utils.py` | Helper functions for dice rolling, scoring, file saving, and input checking |
+| `game_utils.py` | Helper functions for stuff like dice rolling, scoring, file saving, and input checking |
 | `scores.txt` | Stores readable game summaries after games are played |
 | `game_results.csv` | Stores the turn history from the most recent game |
 | `score_graph.png` | Graph created after a game is played |
@@ -52,24 +52,24 @@ pip install numpy pandas seaborn matplotlib
 This version includes:
 
 * Multiple players
-* User selected number of turns
-* User selected number of sides on the dice
+* A user selected number of turns
+* A user selected number of sides on the dice
 * Dice rolling with `numpy`
-* Score tracking with a dictionary
-* Turn history stored in a list of dictionaries
-* Tuple use when saving dice results
-* File reading from `scores.txt`
-* File writing to `scores.txt`
-* CSV writing to `game_results.csv`
-* A graph of scores over time using `seaborn`
+* Score tracking
+* Saved turn history
+* Dice results saved as tuples
+* Reading from `scores.txt`
+* Writing to `scores.txt`
+* Writing game results to `game_results.csv`
+* A graph of scores over time
 * Input checking with `try` and `except`
 
 ## Known Limits
 
 This version decides the winner by highest score. If two players tie, the program keeps the first player who reached that score as the winner.
 
-## Pattern Checklist Notes
+## Project Notes
 
-This project includes examples of variables, functions, function arguments, named arguments, object methods, a standard library import, a local module import, input, file reading, file writing, conditionals, boolean operators, boolean functions, error handling, while loops, for loops, lists, indexing, dictionaries, tuples, comments, docstrings, and a README file.
+I tried to make this version work like the Tuple Out rules from the assignment. The game lets players roll three dice, reroll dice that are not fixed, and keep track of scores until the game ends.
 
-The project also includes advanced coding topics by using `numpy` for dice rolling and `seaborn` with `pandas` for graphing score data.
+I also added score saving and a graph so I could see how the players' scores changed during the game.
